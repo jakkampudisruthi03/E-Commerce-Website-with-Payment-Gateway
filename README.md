@@ -7,9 +7,9 @@ Ecommercely is a straightforward e-commerce project that illustrates the creatio
 
 **Client Server:** NextJs 13, Typescript, Tailwind CSS, ShadCN
 
-**Database:** PostGreSQL (Supabase), Prisma (ORM)
+**Database:** PostGreSQL
 
-**Hosting:** Vercel And Database Supabase
+**Hosting:** Database
 ## Features
 
 
@@ -25,15 +25,6 @@ Ecommercely is a straightforward e-commerce project that illustrates the creatio
 
 
 Admin Panel Github: https://github.com/jakkampudisruthi03
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-`NEXT_PUBLIC_ADMIN_API_BASE`
-
-## Setup
 
 ### Prerequisites
 
@@ -58,24 +49,6 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-3. **Set Up Environment Variables**
-   
-   Copy the `.env.sample` file and create a `.env.local` file:
-   ```bash
-   cp .env.sample .env.local
-   ```
-   
-   Then update the values in `.env.local` with your actual credentials:
-   ```env
-   DATABASE_URL=your_database_connection_string
-   SECRET_KEY=your_secret_key_for_jwt_tokens
-   NODEMAILER_USER=your_email@gmail.com
-   NODEMAILER_PASS=your_email_app_password
-   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   NEXT_PUBLIC_ADMIN_API_BASE=your_admin_api_base_url
-   ```
-
 4. **Database Setup**
    - Set up your PostgreSQL database (or use Supabase)
    - Update the `DATABASE_URL` in your `.env.local` file
@@ -98,3 +71,4 @@ Before you begin, ensure you have the following installed:
 ### Related Repositories
 
 - **Admin Panel**:https://github.com/jakkampudisruthi03/E-Commerce-Website-with-Payment-Gateway
+
