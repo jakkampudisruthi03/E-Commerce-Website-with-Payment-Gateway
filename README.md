@@ -1,0 +1,1 @@
+A simple and responsive E-Commerce Web Application built using HTML, CSS, JavaScript, and a backend integrated with AWS services. This project demonstrates a complete online shopping workflow including product listings, cart operations, login flow, address entry, order placement, and tracking.
